@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        canvas{
-            background-color: #eee;
+        canvas {
+            background-image: url(img.png);
+            background-size: 100%;
+            z-index: -1;
         }
     </style>
 </head>
 
 <body>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRc0qNy28koTfwTyYg0f6h9fc5DwzWUPMX4F23Kj-nG2zdcHjSZ&usqp=CAU" id="img1"></img>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRc0qNy28koTfwTyYg0f6h9fc5DwzWUPMX4F23Kj-nG2zdcHjSZ&usqp=CAU" id="img2"></img>
-<canvas id="canvas" width="700" height="500" ></canvas>
-<p id="scorered">score = 0</p>
-<p id="scoreblue">score = 0</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRc0qNy28koTfwTyYg0f6h9fc5DwzWUPMX4F23Kj-nG2zdcHjSZ&usqp=CAU"
+     id="img1">
+<img src="https://cdn.bongdaplus.vn/Assets/Media/2019/01/22/56/aikawa-v.jpg" id="img2"></img>
+<canvas id="canvas" width="700" height="500"></canvas>
+<p>score = <span id="scoreblue">0</span></p>
+<p>score = <span id="scorered">0</span></p>
 </body>
 <script src="gon.js"></script>
 <script src="ractmain.js"></script>
